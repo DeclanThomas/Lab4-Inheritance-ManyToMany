@@ -1,0 +1,10 @@
+The addition of the a new product is done by the admin 
+when they are logged in. This is done using the 
+addProduct.scala.html and using the same controller
+method called addProductSubmit(). If the id of the 
+product is null then they save the product to 
+generate a new id. They find the category for each category
+id in catSelect. Then they add each category to
+the categories list which is found in the 
+newProduct object. Then they update the product
+causing a save to the ManyToMany table.
